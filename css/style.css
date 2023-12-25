@@ -16,7 +16,7 @@
     color: aliceblue;
 }
 
-
+/* Inicio estilos Header */
 #header ul li a {
     list-style-type: none;
     font-family: "ulises";
@@ -30,7 +30,7 @@ img {
     width: 175px;
 
 }
-
+/* Fin estilos Header */
 .footerseccion{
     list-style-type: none;
     color: white;
