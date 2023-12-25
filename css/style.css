@@ -52,7 +52,7 @@
 .imagenmujeres {
     width: 100%;
     height: auto;
-
+    
 }
 
 
@@ -214,6 +214,9 @@ color: white;}
     width: 175px;
 }
 
+.mercancia {
+    width: 125px;
+}
 @media (max-width: 940px) and (min-width: 400px) {
 
     
