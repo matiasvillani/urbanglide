@@ -1,0 +1,26 @@
+
+.footerseccion{
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+.footerseccion ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerseccion ul li a{
+    font-family: "ulises";
+    list-style-type: none;
+    color: white;
+}
+
+#edit {
+    color: antiquewhite;
+    list-style-type: none;
+} }

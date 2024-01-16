@@ -1,0 +1,84 @@
+.grilla {
+
+    height: 100vh;
+
+ 
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas:
+    "donde donde  face  whats"
+    "donde donde   instagram twitter" ;
+ 
+.donde {
+
+    background-color: aliceblue;
+grid-area: donde ;
+background-image:url(../img/infooo.webp);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+ 
+
+.face {
+
+    background-color:aliceblue;
+grid-area: face;
+background-image: url(../img/225129.png);
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+ 
+
+.whats {
+
+    background-color:aliceblue;
+    grid-area: whats;
+    background-image: url(../img/black-and-white-whatsapp-logo-vector.jpg);
+    
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+
+ 
+
+.instagram {
+
+    background-color:aliceblue;
+    grid-area: instagram;
+background-image: url(../img/instagram_logo_icon_206739.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ 
+
+.twitter {
+
+    background-color: aliceblue;
+grid-area: twitter;
+background-image: url(../img/twitter_logo_icon_206654.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.hijo{ padding: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;}
+
+
+}

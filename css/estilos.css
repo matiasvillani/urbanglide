@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "ulises";
+  src: url("../fonts/vinasans.ttf");
+}
+.grilla {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "donde donde  face  whats" "donde donde   instagram twitter";
+}
+.grilla .donde {
+  background-color: aliceblue;
+  grid-area: donde;
+  background-image: url(../img/infooo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grilla .face {
+  background-color: aliceblue;
+  grid-area: face;
+  background-image: url(../img/225129.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grilla .whats {
+  background-color: aliceblue;
+  grid-area: whats;
+  background-image: url(../img/black-and-white-whatsapp-logo-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grilla .instagram {
+  background-color: aliceblue;
+  grid-area: instagram;
+  background-image: url(../img/instagram_logo_icon_206739.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grilla .twitter {
+  background-color: aliceblue;
+  grid-area: twitter;
+  background-image: url(../img/twitter_logo_icon_206654.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grilla .hijo {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Inicio estilos Header */
+.black1 {
+  background-color: black;
+  list-style-type: none;
+}
+.black1 .lista {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.black1 .link1 {
+  display: flex;
+  font-family: "ulises";
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+
+.logito {
+  width: 175px;
+}
+
+/* Fin estilos Header */
+.imagenmujeres {
+  width: 100%;
+  height: auto;
+}
+.imagenmujeres .destacado {
+  background-color: black;
+}
+
+.oferta {
+  background-color: black;
+}
+
+.mercancia {
+  width: 125px;
+}
+
+.d-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicio {
+  width: 100%;
+}
+
+@media (max-width: 940px) and (min-width: 400px) {
+  #header {
+    width: 100%;
+  }
+  .footerseccion {
+    width: 100%;
+  }
+}
+.footerseccion {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerseccion .footerseccion ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footerseccion .footerseccion ul li a {
+  font-family: "ulises";
+  list-style-type: none;
+  color: white;
+}
+.footerseccion #edit {
+  color: antiquewhite;
+  list-style-type: none;
+}/*# sourceMappingURL=estilos.css.map */
