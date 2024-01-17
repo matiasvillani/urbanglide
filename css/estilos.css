@@ -2,6 +2,16 @@
   font-family: "ulises";
   src: url("../fonts/vinasans.ttf");
 }
+.servicio {
+  width: 100%;
+}
+
+.d-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .grilla {
   height: 100vh;
   display: grid;
@@ -135,12 +145,10 @@
 .footerseccion .footerseccion ul li a {
   font-family: "ulises";
   list-style-type: none;
-  color: white;
 }
 .footerseccion #edit {
-  color: antiquewhite;
-  list-style-type: none;
-  border-bottom: none;
+  align-items: center;
+  justify-content: center;
 }
 .footerseccion .lista {
   list-style-type: none;
