@@ -9,16 +9,28 @@
 
 .oferta { background-color: black;}
 
+
+
+.row{
+
+
+    .col {
+        border: solid;    
+        padding: 10px;
+        justify-content: space-between;
+        }
+        
 .mercancia {
     width: 125px;
+    border: 5px;
+    padding: 10px;
 }
 
-.d-block{
-    display: flex;
-    align-items: center;
+.logito {
+    width: 100px;
+    display:inline-block;
     justify-content: center;
+    align-items: center;
 }
 
-.servicio{
-    width: 100%;
 }

@@ -5,6 +5,10 @@
 .black1 {
     background-color: black;
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     
 .lista {
     display: flex;
@@ -22,12 +26,4 @@
     text-decoration: none;
     padding-bottom: 4px;
 }
-
- 
-
-}
-
-.logito {
-    width: 175px;
-}
-/* Fin estilos Header */
+}/* Fin estilos Header */

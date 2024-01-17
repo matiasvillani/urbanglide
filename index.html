@@ -4,12 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/estilos.css">
+  <title>urbanglide</title>
+
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-  
+    <link rel="stylesheet" href="./css/estilos.css">
+<meta name="description" content="las mejores zapatillas calidad-precio! envios a cualquier parte del mundo">
+<meta name="keywords" content="zapatillas, calzado, moda, deportivas, sneakers, tendencias, estilo, calzado urbano">
 
 
 </head>
@@ -19,27 +22,38 @@
 <!-- Inicio Header -->
   <header class="black1">
     <div class="header">
-
       <img src="img/urbanglide.png" alt="logo" class="logito">
-
-      <nav>
-
-
-        <ul class="lista">
-          <li><a class="link1" href="./pages/hombre.html">hombre</a></li>
-          <li><a class="link1" href="./pages/mujeres.html">mujeres</a></li>
-          <li><a class="link1" href="./pages/nino-a.html">niño/a</a></li>
-          <li><a class="link1" href="./pages/accesorio.html">accesorio</a></li>
-        </ul>
-    </div>
-    </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nino-a.html">niños</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/mujeres.html">mujeres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/hombre.html">hombres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/accesorio.html">accesorio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
   </header>
   <!-- Fin Header -->
 
 
   <main>
     <section class="row">
-      <img src="img/BANNER-MUJERES-AUTENTICAS-SMARTCASUAL.jpg" class="imagenmujeres">
+      <div data-aos="flip-left"><img src="img/BANNER-MUJERES-AUTENTICAS-SMARTCASUAL.jpg" class="imagenmujeres"></div>
 
       <p>destacado</p class="destacado">
         <div>
@@ -93,21 +107,25 @@
   <footer>
     <div class="footerseccion" >
       <ul id="edit">
-        <li><a href="./pages/contacto.html">contacto</a></li>
-        <li><a href="./pages/hombre.html">hombre</a></li>
-        <li><a href="./pages/mujeres.html">mujeres</a></li>
-        <li><a href="./pages/nino-a.html">niño/a</a></li>
-        <li><a href="./pages/accesorio.html">accesorio</a></li>
-        <li><a href="./pages/sobrenosotros.html">about us</a></li>
+        <li><a href="./pages/contacto.html">contacto</a></li class="lista">
+        <li><a href="./pages/hombre.html">hombre</a></li class="lista">
+        <li><a href="./pages/mujeres.html">mujeres</a></li class="lista">
+        <li><a href="./pages/nino-a.html">niño/a</a></li class="lista">
+        <li><a href="./pages/accesorio.html">accesorio</a></li class="lista">
+        <li><a href="./pages/sobrenosotros.html">about us</a></li class="lista">
         
       </ul>
     </div>
   </footer>
+  
     <!-- fin footer -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
   crossorigin="anonymous"></script>
-  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
