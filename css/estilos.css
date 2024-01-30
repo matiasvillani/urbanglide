@@ -12,6 +12,10 @@
   justify-content: center;
 }
 
+.carousel-item {
+  width: 100%;
+}
+
 .grilla {
   height: 100vh;
   display: grid;
