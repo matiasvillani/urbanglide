@@ -8,11 +8,10 @@
 
 .d-block {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
 }
 
-.carousel-item {
+.row {
   width: 100%;
 }
 
@@ -149,6 +148,9 @@
 .footerseccion .footerseccion ul li a {
   font-family: "ulises";
   list-style-type: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 .footerseccion #edit {
   align-items: center;
