@@ -13,15 +13,17 @@
     grid-template-areas:
     "donde donde  face  whats"
     "donde donde   instagram twitter" ;
- 
+
+
 .donde {
 
     background-color: aliceblue;
 grid-area: donde ;
-background-image:url(../img/infooo.webp);
+background-image: url(../img/ubicanos.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+width: 100%;
 }
 
  
@@ -35,6 +37,7 @@ background-image: url(../img/225129.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+width: 100%;
 }
 
  
@@ -48,6 +51,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+width: 100%;
 
 }
 
@@ -61,6 +65,7 @@ background-image: url(../img/instagram_logo_icon_206739.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
 
  
@@ -73,12 +78,15 @@ background-image: url(../img/twitter_logo_icon_206654.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+width: 100%;
+
 }
 .hijo{ padding: 2rem;
 display: flex;
 justify-content: center;
 align-items: center;
 color: white;}
+width: 100%;
 
 
 }

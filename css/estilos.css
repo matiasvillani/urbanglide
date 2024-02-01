@@ -35,6 +35,8 @@ ol {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "donde donde  face  whats" "donde donde   instagram twitter";
+  border: solid 20px;
+  border: solid 20px;
 }
 .grilla .donde {
   background-color: aliceblue;
@@ -43,6 +45,7 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: solid 20px;
 }
 .grilla .face {
   background-color: aliceblue;
@@ -51,6 +54,7 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: solid 20px;
 }
 .grilla .whats {
   background-color: aliceblue;
@@ -59,6 +63,7 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: solid 20px;
 }
 .grilla .instagram {
   background-color: aliceblue;
@@ -67,6 +72,7 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: solid 20px;
 }
 .grilla .twitter {
   background-color: aliceblue;
@@ -75,6 +81,7 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: solid 20px;
 }
 .grilla .hijo {
   padding: 2rem;
@@ -126,7 +133,6 @@ ol {
   border-color: rgba(255, 255, 255, 0);
 }
 
-/* Inicio estilos Header */
 .black1 {
   background-color: black;
   list-style-type: none;
@@ -220,6 +226,131 @@ ol {
   }
   .footerseccion {
     width: 100%;
+  }
+}
+@media (min-width: 320px) {
+  header {
+    background-color: white;
+    height: 100px;
+  }
+  header .header__logo {
+    display: flex;
+    justify-content: center;
+  }
+  .header__logo img {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    background-color: white;
+  }
+  header img {
+    width: 200px;
+  }
+}
+.btn-verde {
+  color: #006340;
+  border-color: #006340;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn-verde:hover {
+  background-color: #006340;
+  color: white;
+  border-color: #006340;
+}
+
+@media (min-width: 1200px) {
+  footer {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    color: #006340;
+    padding: 20px;
+    border-top: solid 1px #006340;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .social__logos {
+    align-items: center;
+    padding: 0.5rem;
+  }
+  .about__us ul a li {
+    color: #006340;
+    text-decoration: none;
+    padding: 0rem;
+    text-align: center;
+  }
+  .support__section ul a li {
+    color: #006340;
+    text-decoration: none;
+    padding: 0rem;
+    text-align: center;
+  }
+}
+@media (min-width: 320px) {
+  footer {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    color: #006340;
+    padding: 20px;
+    border-top: solid 1px #006340;
+  }
+  footer li {
+    color: #006340;
+  }
+  footer .alterno__footer {
+    display: flex;
+    justify-content: center;
+  }
+  .alterno__footer img {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer .correo__footer {
+    display: flex;
+    justify-content: center;
+  }
+  .correo__footer p {
+    text-decoration: none;
+    color: #006340;
+    margin-top: 10px;
+  }
+  footer .social__logos {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  footer .about__us h3 {
+    display: flex;
+    justify-content: center;
+  }
+  .about__us ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    color: #006340;
+  }
+  footer .support__section h3 {
+    display: flex;
+    justify-content: center;
+  }
+  .support__section ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
   }
 }
 /* -----------FOOTER---------- */
