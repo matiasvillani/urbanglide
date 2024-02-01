@@ -18,6 +18,17 @@ ol {
   list-style: none;
 }
 
+.banner {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.superposicion {
+  margin-top: 40px;
+}
+
 .grilla {
   height: 100vh;
   display: grid;
@@ -71,20 +82,6 @@ ol {
   justify-content: center;
   align-items: center;
   color: white;
-}
-
-.row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "# calzado calzado #" "# calzado calzado #";
-}
-.row .col {
-  grid-area: calzado;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
 }
 
 /* Inicio estilos Header */
@@ -200,8 +197,15 @@ ol {
   background-color: black;
 }
 
+.row .col {
+  border: solid;
+  padding: 10px;
+  justify-content: space-between;
+}
 .row .mercancia {
-  border: 1px;
+  width: 125px;
+  border: 5px;
+  padding: 10px;
 }
 .row .header_logo {
   width: 100px;

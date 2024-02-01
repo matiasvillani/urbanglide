@@ -1,4 +1,6 @@
 
+
+
 .banner_nb_promocional {
     display: flex;
     justify-content: center;
@@ -66,12 +68,15 @@
 
 
     .col {
-    
+        border: solid;    
+        padding: 10px;
+        justify-content: space-between;
         }
         
 .mercancia {
-   
-    border: 1px
+    width: 125px;
+    border: 5px;
+    padding: 10px;
 }
 
 .header_logo {
