@@ -1,4 +1,55 @@
 
+.banner_nb_promocional {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+/* ---------- SECCION Nuestra Tienda Animacion --------*/
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.ourst__logos {
+    display: flex;
+    overflow: hidden;
+    padding: 10px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    white-space: nowrap;
+}
+
+.ourst__slide {
+    display: inline-block;
+    animation: 25s slide infinite linear;
+
+
+}
+
+.ourst__slide img {
+    height: 50px;
+    margin: 0 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
 .imagenmujeres {
     width: 100%;
     height: auto;
@@ -15,18 +66,15 @@
 
 
     .col {
-        border: solid;    
-        padding: 10px;
-        justify-content: space-between;
+    
         }
         
 .mercancia {
-    width: 125px;
-    border: 5px;
-    padding: 10px;
+   
+    border: 1px
 }
 
-.logito {
+.header_logo {
     width: 100px;
     display:inline-block;
     justify-content: center;

@@ -82,3 +82,21 @@ color: white;}
 
 
 }
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows:  1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+     "# calzado calzado #"
+     "# calzado calzado #"  ;
+    
+.col{ grid-area: calzado;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+
+}
+
+}

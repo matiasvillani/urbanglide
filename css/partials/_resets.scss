@@ -1,13 +1,16 @@
+/* -----RESETEO----- */
 
-.servicio{
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.d-block{
-    display: flex;
-    width: 100%;
+a {
+    text-decoration: none;
 }
 
-.row {width: 100% ;
-
+ul,
+ol {
+    list-style: none;
 }

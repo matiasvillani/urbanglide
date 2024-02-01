@@ -1,5 +1,56 @@
 
 /* Inicio estilos Header */
+@media (min-width: 320px) {
+
+    header {
+        background-color: white;
+        height: 100px;
+    }
+    
+    header .header__logo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header__logo img {
+        width: 200px;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    }
+    
+    @media (min-width: 1200px) {
+    
+        header {
+            background-color: white;
+            
+        }
+    
+        header img {
+            width: 200px;
+        }
+    }
+
+    .btn-verde {
+        color: #006340;
+        border-color: #006340;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        &:hover {
+            background-color: #006340;
+            color: white;
+            border-color: #006340;
+        }
+    }
+
+    .btn-burguer {
+        color: rgba(255, 255, 255, 0);
+        border-color: rgba(255, 255, 255, 0);
+    }
+
+/* Inicio estilos Header */
 
 
 .black1 {

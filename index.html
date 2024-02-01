@@ -1,119 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=, initial-scale=1.0">
-  <title>urbanglide</title>
-
-  <link rel="stylesheet" href="./css/estilos.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="description" content="Las mejores zapatillas calidad-precio! Envios a cualquier parte del mundo">
+    <title>UrbeX: Sneakers, Streetwear</title>
+    <link rel="icon" type="img/x'icon" href="/img/favicon_urbex.png">
+    <meta name="keywords" content="zapatillas, calzado, moda, deportivas, sneakers, tendencias, estilo, calzado urbano">
+  </head>
   
-<meta name="description" content="las mejores zapatillas calidad-precio! envios a cualquier parte del mundo">
-<meta name="keywords" content="zapatillas, calzado, moda, deportivas, sneakers, tendencias, estilo, calzado urbano">
-
-
-</head>
-
-<body>
-
-<!-- Inicio Header -->
-  <header class="black1">
-    <div class="header">
-      <img src="img/urbanglide.png" alt="logo" class="logito">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="./index.html">menu</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <body>
+  
+    <!-- ----HEADER---- -->
+    <header>
+  
+      <div class="header__logo">
+        <img src="img/urbeX_logo.png" alt="UrbeX Logo">
+      </div>
+  
+      <nav class="navbar navbar-expand-md shadow-sm p-3 mb-5 bg-body-tertiary">
+        <div class="container justify-content-center">
+          <a class="navbar-brand" href="#">
+          </a>
+          <button class="btn-burguer navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="./pages/nino-a.html">niños</a>
+                <a class="nav-link active" aria-current="page" href="./index.html">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/mujeres.html">mujeres</a>
+                <a class="nav-link" href="./pages/nino-a.html">Sneakers</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/hombre.html">hombres</a>
+                <a class="nav-link" href="./pages/nino-a.html">Zapatillas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/accesorio.html">accesorio</a>
+                <a class="nav-link" href="./pages/accesorio.html">Accesorios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/hombre.html">Hombres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/mujeres.html">Mujeres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nino-a.html">Niños</a>
               </li>
             </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+              <button class="btn btn-outline-success btn-verde" type="submit">Buscar</button>
+              <a href=""><button class="btn btn-outline-success btn-verde" type="button"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                  </svg></button></a>
+            </form>
           </div>
         </div>
       </nav>
-  </header>
-  <!-- Fin Header -->
-
-
-  <main>
-    <h1>destacado</h1 class="destacado">
-    <section class="row">
-      <div data-aos="flip-left"><img src="img/BANNER-MUJERES-AUTENTICAS-SMARTCASUAL.jpg" class="imagenmujeres"></div>
-
-
-        <div>
-          <h2>ofertas</h2>
-        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./img/bannerseis.jpg" class="d-block " alt="banner">
-            </div>
-            <div class="carousel-item">
-              <img src="./img/banneruno.jpeg" class="d-block" alt="banner ofertas">
-            </div>
-            <div class="carousel-item">
-              <img src="./img/bannerdos.jpeg" class="d-block" alt="banner">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">anterior</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">siguiente</span>
-          </button>
-          
-    <h2>Política de Privacidad:</h2>
-
-    <p>En nuestro compromiso por resguardar su privacidad, nos esforzamos por garantizar la confidencialidad y seguridad de
-    la información que nos proporciona. La recopilación de datos tiene como único propósito mejorar y personalizar su
-    experiencia con nuestros servicios. Nos comprometemos a no compartir, vender ni divulgar sus datos personales a
-    terceros sin su consentimiento expreso. Implementamos medidas de protección avanzadas para salvaguardar su
-    información contra accesos no autorizados. Al optar por utilizar nuestros servicios, usted acepta y consiente
-    nuestras prácticas de privacidad. Estamos aquí para responder a cualquier pregunta o inquietud que pueda tener
-    acerca de sus datos personales. Agradecemos la confianza depositada en nosotros y trabajamos continuamente para
-    mejorar nuestra política de privacidad en beneficio de nuestros usuarios.</p>
-        </div>
-        <!-- Inicio footer -->
-  <footer>
-    <div class="footerseccion" >
-      <ul id="edit">
-        <li><a href="./pages/contacto.html">contacto</a></li class="lista">
-        <li><a href="./pages/hombre.html">hombre</a></li class="lista">
-        <li><a href="./pages/mujeres.html">mujeres</a></li class="lista">
-        <li><a href="./pages/nino-a.html">niño/a</a></li class="lista">
-        <li><a href="./pages/accesorio.html">accesorio</a></li class="lista">
-        <li><a href="./pages/sobrenosotros.html">about us</a></li class="lista">
-        
-      </ul>
-    </div>
-  </footer>
   
-    <!-- fin footer -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-  crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
-
-</html>
+  
+  
+  
+  
+  
+  
+    </header>
+    <!-- Fin Header -->
+  
+  
+    <main>
+  
+      <h1>INICIO</h1>
+  
+  
+      <div class="banner_nb_promocional">
+        <a href="./pages/nino-a.html"><img src="img/banner-second.png" alt="Banner Promocional de New Balance"></a>
+      </div>
+  
+      <!-- animacion carrusel infinito nuestra tienda -->
+      <div id="seccion__stores" class="ourst__logos">
+        <div class="ourst__slide">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+        </div>
+        <div class="ourst__slide">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+          <img src="./img/our_stores.png" alt="Nuestra Tienda Imagen">
+        </div>
+      </div>
+  
+  
+  
+      <!-- CARRUSEL -->
+  
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/banner-first.png" class="d-block w-100"
+                    alt="Banner Promocional sobre New Balance">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner-second.png" class="d-block w-100"
+                    alt="Banner Promocional sobre Nike">
+            </div>
+            <div class="carousel-item">
+              <img src="img/banner-third.png" class="d-block w-100"
+                  alt="Banner Promocional sobre Supreme con NikeSB">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+  
+      <!-- Inicio footer -->
+  
+      <!-- ----FOOTER---- -->
+  
+      <footer>
+  
+        <section>
+          <div class="alterno__footer">
+            <a href="./index.html">
+              <img src="img/urbeX_logo.png" alt="UrbeX Logo">
+            </a>
+          </div>
+  
+          <div class="correo__footer">
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">
+              <p>help@urbex.com</p>
+            </a>
+          </div>
+        </section>
+  
+        <div class="social__logos">
+  
+          <a href="https://www.instagram.com" target="_blank"><img src="./img/instagram_green.png" width="40px"
+              height="40px" alt="Instagram App"></a>
+          <a href="https://twitter.com" target="_blank"><img src="./img/twitter_green.png" width="40px" height="40px"
+              alt="Twitter App"></a>
+          <a href="https://www.youtube.com" target="_blank"><img src="./img/youtube_green.png" width="40px"
+              height="40px" alt="Youtube App"></a>
+          <a href="https://www.tiktok.com" target="_blank"><img src="./img/tiktok_green.png" width="40px"
+              height="40px" alt="Tiktok App"></a>
+        </div>
+  
+        <section class="about__us">
+          <div>
+            <h3>Info</h3>
+          </div>
+  
+          <div>
+            <ul>
+              <a href="./pages/aboutus.html">
+                <li>Sobre Nosotros</li>
+              </a>
+              <a href="#seccion__stores">
+                <li>Tiendas</li>
+              </a>
+            </ul>
+          </div>
+        </section>
+  
+  
+  
+        <section class="support__section">
+  
+          <div>
+            <h3>Soporte</h3>
+          </div>
+  
+          <div>
+            <ul>
+              <a href="./pages/devoluciones.html">
+                <li>Devoluciones</li>
+              </a>
+              <a href="./pages/contacto.html">
+                <li>Contacto</li>
+              </a>
+            </ul>
+          </div>
+  
+        </section>
+  
+      </footer>
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+  </body>
+  
+  </html>
