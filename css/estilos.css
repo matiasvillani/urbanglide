@@ -35,17 +35,16 @@ ol {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "donde donde  face  whats" "donde donde   instagram twitter";
-  border: solid 20px;
-  border: solid 20px;
+  width: 100%;
 }
 .grilla .donde {
   background-color: aliceblue;
   grid-area: donde;
-  background-image: url(../img/infooo.webp);
+  background-image: url(../img/ubicanos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: solid 20px;
+  width: 100%;
 }
 .grilla .face {
   background-color: aliceblue;
@@ -54,7 +53,7 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: solid 20px;
+  width: 100%;
 }
 .grilla .whats {
   background-color: aliceblue;
@@ -63,7 +62,7 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: solid 20px;
+  width: 100%;
 }
 .grilla .instagram {
   background-color: aliceblue;
@@ -72,7 +71,7 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: solid 20px;
+  width: 100%;
 }
 .grilla .twitter {
   background-color: aliceblue;
@@ -81,7 +80,7 @@ ol {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: solid 20px;
+  width: 100%;
 }
 .grilla .hijo {
   padding: 2rem;
