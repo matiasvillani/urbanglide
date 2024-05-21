@@ -30,3 +30,4 @@ const ciudad =  new DondeEncontrarnos ("san justo")
 
 console.log (ubicacion); 'ubicacion'
 console.log (ciudad); 'lugar'
+
